@@ -1,0 +1,16 @@
+<!-- src/templates/upload.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+</head>
+<body>
+    <h1>Upload File to Azure Blob Storage</h1>
+    
+    <!-- here in action if we change the url of live one then we get the live app -->
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
